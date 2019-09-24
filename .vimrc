@@ -1,7 +1,3 @@
-  
-
-
-
 set nu
 set foldmethod=indent
 set encoding=UTF-8
@@ -48,7 +44,6 @@ let g:UltiSnipsJumpBackwardTrigger = '<s-tab>'
 let g:UltiSnipsEditSplit="vertical"
 let g:UltiSnipsSnippetDirectories=[$HOME.'/.vim/UltiSnips']
 call plug#end()
-
 
 
 autocmd VimEnter * NERDTree
